@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Student Registration</h1>
+            <p>Join us and start your learning journey!</p>
+        </div>
+        <form>
+            <div class="section-title">Personal Information</div>
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+            </div>
+
+            <label>Gender</label>
+            <div class="gender-group">
+                <label class="gender-option">
+                    <input type="radio" name="gender" value="male"> Male</label>
+                <label class="gender-option">
+                    <input type="radio" name="gender" value="female"> Female</label>
+                <label class="gender-option">
+                    <input type="radio" name="gender" value="other"> Other</label>
+            </div>
+
+            <div class="section-title">Academic Information</div>
+
+            <div class="form-group">
+                <label for="course">Select Course</label>
+                <select id="course">
+                    <option value="" disabled selected>Choose your course</option>
+                    <option value="web-dev">Web Development</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="ui-ux">UI/UX Design</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="qualification">Previous Qualification</label>
+                <select id="qualification">
+                    <option value="" disabled selected>Select qualification</option>
+                    <option value="high-school">High School</option>
+                    <option value="bachelors">Bachelor's Degree</option>
+                    <option value="masters">Master's Degree</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Full Address</label>
+                <textarea id="address" placeholder="Enter your address"></textarea>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms">
+                <label for="terms" style="display:inline; font-weight:normal;">I agree to the terms and conditions.</label>
+            </div>
+
+            <button type="submit" class="btn-register">Register Now</button>
+            <button type="reset" class="btn-reset">Reset Form</button>
+        </form>
+
+        <div class="footer">
+            &copy; 2026 Student Registration Portal
+        </div>
+    </div>
+
+</body>
+</html>
