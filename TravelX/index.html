@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice CSS</title>
+</head>
+<link rel="stylesheet" href="style1.css">
+<body>
+    <nav class="navbar">
+        <div class="logo">TravelX</div>
+        <ul class="links">
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Destinations</a></li>
+        </ul>
+        <button id="login-btn">Sign In</button>
+    </nav>
+    <section class="hero">
+       <div class="content">
+         <h1 id="heading1">Explore the World. Make Memories</h1>
+        <p id="para1">Find hotels,flights and unforgettable experiences at the best prices </p>
+        <div class="search-box">
+        <div class="inputs">
+        <label for="destination">Destination</label>
+        <input type="text" placeholder="Where are you going!!" id="destination">
+        </div>
+        <div class="inputs">
+            <label for="check-in">Check in</label>
+            <input type="date" id="check-in">
+        </div>
+        <div class="inputs">
+            <label for="check-out">Check Out</label>
+            <input type="date" id="check-out">
+        </div>
+        <div class="inputs">
+            <label for="guests">Guests</label>
+            <select name="guests">
+                <option selected>2 guests</option>
+                <option>1 guests</option>
+                 <option>3 guests</option>
+                  <option>4 guests</option>
+                    <option>5+ guests</option>
+            </select>
+        </div>
+        <button class="search-btn">Search</button>
+       </div>
+       </div>
+    </section>
+    <main class="container">
+        <div class="header">
+            <div>
+                <h2>Popular destinations</h2>
+                 <p>Discover places travelers love</p>
+            </div>
+          
+        </div>
+        <div class="destinations">
+            <div class="destination">
+     <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=700&q=80" alt="Bali"/>
+     <div class="destination-info">
+          <h3>Bali</h3>
+          <p>Indonesia</p>
+        </div>
+      </div>
+      <div class="destination">
+         <img
+          src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80"
+          alt="Paris"/>
+          <div class="destination-info">
+          <h3>Paris</h3>
+          <p>France</p>
+        </div>
+      </div>
+      <div class="destination">
+        <img
+          src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=700&q=80"
+          alt="Dubai"
+        />
+        <div class="destination-info">
+          <h3>Dubai</h3>
+          <p>UAE</p>
+        </div>
+      </div>
+      <div class="destination">
+        <img
+          src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=700&q=80"
+          alt="Kyoto"
+        />
+        <div class="destination-info">
+          <h3>Kyoto</h3>
+          <p>Japan</p>
+        </div>
+      </div>
+            </div>
+        </div>
+        <div class="hero-header" style="margin-top: 80px;">
+             <div>
+        <h2>Popular stays</h2>
+        <p>Comfortable places for your next trip</p>
+      </div>
+        </div>
+        <div class="hotel-grid">
+
+      <div class="hotel-card">
+        <div class="hotel-image">
+          <img
+            src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80"
+            alt="Luxury hotel"
+          />
+        </div>
+
+        <div class="hotel-content">
+          <h3>Ocean View Resort</h3>
+          <p class="location"> Goa, India</p>
+          <div class="hotel-bottom">
+            <div class="price">
+              <strong>₹4,500</strong>
+              <span>/ night</span>
+            </div>
+
+            <a href="#" class="book-btn">Book now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hotel-card">
+        <div class="hotel-image">
+          <img
+            src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=80"
+            alt="Hotel room"
+          />
+        </div>
+
+        <div class="hotel-content">
+          <h3>Grand Palace Hotel</h3>
+          <p class="location"> Jaipur, India</p>
+
+          <div class="hotel-bottom">
+            <div class="price">
+              <strong>₹3,200</strong>
+              <span>/ night</span>
+            </div>
+
+            <a href="#" class="book-btn">Book now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hotel-card">
+        <div class="hotel-image">
+          <img
+            src="https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=900&q=80"
+            alt="Luxury hotel"
+          />
+        </div>
+
+        <div class="hotel-content">
+          <h3>Mountain Escape</h3>
+          <p class="location"> Manali, India</p>
+
+          <div class="hotel-bottom">
+            <div class="price">
+              <strong>₹5,800</strong>
+              <span>/ night</span>
+            </div>
+
+            <a href="#" class="book-btn">Book now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="features">
+
+      <div class="feature">
+        <div class="feature-icon">✓</div>
+        <h3>Best Price</h3>
+        <p>
+          Find competitive prices and great deals for your next adventure.
+        </p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">♥</div>
+        <h3>Trusted Stays</h3>
+        <p>
+          Book verified hotels and accommodations with confidence.
+        </p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">24</div>
+        <h3>24/7 Support</h3>
+        <p>
+          Our support team is available whenever you need help.
+        </p>
+      </div>
+
+    </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div>
+        <h3>Wanderly</h3>
+        <p>
+          Your travel companion for discovering amazing destinations,
+          comfortable stays and unforgettable experiences.
+        </p>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#">Hotels</a></li>
+          <li><a href="#">Flights</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Packages</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+          
+        </div>
+         <div class="copyright">
+      © 2026 Wanderly. All rights reserved.
+    </div>
+    </footer>
+</body>
+</html>
